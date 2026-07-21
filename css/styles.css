@@ -1167,12 +1167,13 @@ main[id] {
 }
 
 .story-lead {
-  max-width: 720px;
+  max-width: none;
   margin-bottom: 0;
   color: var(--cream);
   font-size: clamp(1.1rem, 2vw, 1.35rem);
   font-weight: 600;
   line-height: 1.5;
+  white-space: nowrap;
 }
 
 .story-content {
@@ -1236,6 +1237,10 @@ main[id] {
 }
 
 @media (max-width: 700px) {
+  .story-lead {
+    white-space: normal;
+  }
+
   .story-content p {
     line-height: 1.7;
   }
