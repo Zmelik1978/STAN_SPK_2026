@@ -1236,6 +1236,31 @@ main[id] {
   outline-color: var(--magenta);
 }
 
+/* ---------- Fotogalerie kandidátů ---------- */
+.candidate-gallery-section {
+  clear: both;
+  padding: clamp(48px, 7vw, 84px) 0 clamp(72px, 9vw, 108px);
+  background: var(--cream);
+}
+
+.candidate-gallery-section .gallery {
+  max-width: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.candidate-gallery-section .gallery-stage {
+  box-shadow: var(--shadow);
+}
+
+.candidate-gallery-section .gallery-item.is-active {
+  box-shadow: inset 0 0 0 3px var(--magenta);
+}
+
+.candidate-gallery-section .gallery-item:focus-visible {
+  outline-color: var(--magenta);
+}
+
 @media (max-width: 700px) {
   .story-lead {
     white-space: normal;
