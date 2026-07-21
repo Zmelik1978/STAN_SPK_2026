@@ -20,6 +20,29 @@ const candidateGalleryData = {
       "LJM_8583 o.jpg"
     ]
   },
+  "martin-biza.html": {
+    "folder": "Martin Bíza",
+    "photos": [
+      "DSC_6683.jpg",
+      "DSC_6707.jpg",
+      "DSC_6724.jpg",
+      "DSC_6726.jpg",
+      "DSC_6754.jpg",
+      "DSC_6762.jpg",
+      "DSC_6807.jpg",
+      "DSC_6898.jpg",
+      "DSC_6899.jpg",
+      "DSC_6939.jpg",
+      "DSC_6940.jpg",
+      "DSC_6941.jpg",
+      "DSC_6943.jpg",
+      "DSC_6961.jpg",
+      "DSC_6992.jpg",
+      "DSC_6995.jpg",
+      "DSC_7023.jpg",
+      "DSC_7127.jpg"
+    ]
+  },
   "hana-janickova.html": {
     "folder": "Hana Jančíková",
     "photos": [
