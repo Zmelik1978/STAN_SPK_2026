@@ -44,3 +44,43 @@ if (dropdown) {
     }
   });
 }
+
+// Fotogalerie na stránce „Jak to všechno začalo“
+const gallery = document.querySelector("[data-gallery]");
+
+if (gallery) {
+  const mainImage = gallery.querySelector("[data-gallery-main]");
+  const counter = gallery.querySelector("[data-gallery-counter]");
+  const items = Array.from(gallery.querySelectorAll(".gallery-item"));
+  const previous = gallery.querySelector("[data-gallery-prev]");
+  const next = gallery.querySelector("[data-gallery-next]");
+  let activeIndex = 0;
+
+  const showImage = (index) => {
+    activeIndex = (index + items.length) % items.length;
+    const activeItem = items[activeIndex];
+    mainImage.src = activeItem.dataset.src;
+    mainImage.alt = `Fotografie ${activeIndex + 1} ze společných akcí STAN Šumperk`;
+    counter.textContent = `${activeIndex + 1} / ${items.length}`;
+
+    items.forEach((item, itemIndex) => {
+      const isActive = itemIndex === activeIndex;
+      item.classList.toggle("is-active", isActive);
+      item.setAttribute("aria-pressed", String(isActive));
+    });
+  };
+
+  items.forEach((item, index) => {
+    item.addEventListener("click", () => showImage(index));
+  });
+
+  previous.addEventListener("click", () => showImage(activeIndex - 1));
+  next.addEventListener("click", () => showImage(activeIndex + 1));
+
+  gallery.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") showImage(activeIndex - 1);
+    if (event.key === "ArrowRight") showImage(activeIndex + 1);
+  });
+
+  showImage(0);
+}
