@@ -879,6 +879,7 @@ main[id] {
   color: var(--footer-bg);
 }
 .kandidat {
+  display: flow-root;
   font-size: 0.85rem;
   color: var(--muted);
   line-height: 1.5;
@@ -892,6 +893,16 @@ main[id] {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
+}
+.kandidat-portrait {
+  float: left;
+  width: clamp(220px, 30vw, 360px);
+  height: auto;
+  aspect-ratio: 4 / 5;
+  margin: 0 2.5rem 1.5rem 0;
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: center top;
 }
 .kandidat p {
   font-size: 1.2rem;
@@ -1068,6 +1079,12 @@ main[id] {
   .kandidat p {
     font-size: 1.05rem;
     line-height: 1.65;
+  }
+
+  .kandidat-portrait {
+    float: none;
+    width: min(100%, 380px);
+    margin: 0 auto 1.5rem;
   }
 
   .image-frames,
