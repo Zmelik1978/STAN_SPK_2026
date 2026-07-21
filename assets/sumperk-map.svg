@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="title desc">
+  <title id="title">Abstraktni regionalni prvek Sumperk</title>
+  <desc id="desc">Dekorativni mapa inspirovana regionalnim tvarem pro web STAN Sumperk 2026.</desc>
+  <path fill="#fcf7e0" d="M140 42c47-29 122-22 159 13 24 23 73 17 111 36 54 27 71 88 48 140-20 46-75 59-102 91-24 28-28 74-76 83-49 9-73-32-112-45-45-15-95 10-127-23-33-34-4-79-15-125-11-47-49-89-24-127 22-34 92-15 138-43Z"/>
+  <path fill="#ce0f68" d="M177 94c34-20 89-15 117 12 18 17 55 13 82 27 40 21 53 65 36 105-15 34-56 44-76 68-18 21-22 55-58 62-36 7-54-24-84-34-33-11-70 8-94-17-25-25-3-59-12-94-8-35-36-66-18-94 16-26 73-11 107-35Z"/>
+  <path fill="#ffed00" d="M250 142c25 0 45 20 45 45s-20 45-45 45-45-20-45-45 20-45 45-45Z"/>
+  <path fill="none" stroke="#ce0f68" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" d="M158 246c33 28 69 38 109 31 43-8 75-33 96-76"/>
+</svg>
