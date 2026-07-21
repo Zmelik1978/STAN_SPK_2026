@@ -909,6 +909,14 @@ main[id] {
   color: var(--muted);
   line-height: 1.5;
 }
+.kandidat .charakteristika {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.kandidat .charakteristika:has(> strong) {
+  text-align: left;
+  text-justify: auto;
+}
 .image-frames {
   margin-left: 3rem;
   margin-right: 3rem;
