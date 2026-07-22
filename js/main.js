@@ -15,35 +15,35 @@ if (toggle && nav) {
   });
 }
 
-// Rozbalovací nabídka "Ke stažení"
-const dropdown = document.querySelector(".nav-dropdown");
+// Rozbalovací nabídky v hlavní navigaci
+const dropdowns = Array.from(document.querySelectorAll(".nav-dropdown"));
 
-if (dropdown) {
+const closeDropdown = (dropdown) => {
+  const dropdownToggle = dropdown.querySelector(".nav-dropdown-toggle");
+  dropdown.classList.remove("is-open");
+  dropdownToggle?.setAttribute("aria-expanded", "false");
+};
+
+dropdowns.forEach((dropdown) => {
   const dropdownToggle = dropdown.querySelector(".nav-dropdown-toggle");
 
-  const closeDropdown = () => {
-    dropdown.classList.remove("is-open");
-    dropdownToggle.setAttribute("aria-expanded", "false");
-  };
-
-  dropdownToggle.addEventListener("click", (event) => {
+  dropdownToggle?.addEventListener("click", (event) => {
     event.stopPropagation();
-    const isOpen = dropdown.classList.toggle("is-open");
-    dropdownToggle.setAttribute("aria-expanded", String(isOpen));
-  });
+    const willOpen = !dropdown.classList.contains("is-open");
 
-  document.addEventListener("click", (event) => {
-    if (!dropdown.contains(event.target)) {
-      closeDropdown();
-    }
+    dropdowns.forEach(closeDropdown);
+    dropdown.classList.toggle("is-open", willOpen);
+    dropdownToggle.setAttribute("aria-expanded", String(willOpen));
   });
+});
 
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-      closeDropdown();
-    }
-  });
-}
+document.addEventListener("click", () => dropdowns.forEach(closeDropdown));
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    dropdowns.forEach(closeDropdown);
+  }
+});
 
 // Fotogalerie na stránce „Jak to všechno začalo“
 const gallery = document.querySelector("[data-gallery]");
@@ -60,7 +60,8 @@ if (gallery) {
     activeIndex = (index + items.length) % items.length;
     const activeItem = items[activeIndex];
     mainImage.src = activeItem.dataset.src;
-    mainImage.alt = `Fotografie ${activeIndex + 1} ze společných akcí STAN Šumperk`;
+    const galleryAlt = gallery.dataset.galleryAlt || "Fotografie ze společných akcí STAN Šumperk";
+    mainImage.alt = `${galleryAlt} ${activeIndex + 1}`;
     counter.textContent = `${activeIndex + 1} / ${items.length}`;
 
     items.forEach((item, itemIndex) => {

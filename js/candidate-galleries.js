@@ -145,7 +145,11 @@ const candidateGalleryData = {
       "DSC_6897.jpg",
       "DSC_6928.jpg",
       "DSC_6930.jpg",
-      "DSC_6960.jpg"
+      "DSC_6960.jpg",
+      "DSC_2139.jpg",
+      "DSC_2139-1.jpg",
+      "DSC_2560.jpg",
+      "DSC_2560-1.jpg",
     ]
   },
   "leona-pekarova.html": {
@@ -270,7 +274,13 @@ const candidateGalleryData = {
       "DSC_6940.jpg",
       "DSC_6941.jpg",
       "DSC_6942.jpg",
-      "DSC_6952.jpg"
+      "DSC_6952.jpg",
+      "DSC_2155-1.jpg",
+      "DSC_2155.jpg",
+      "DSC_2217-1.jpg",
+      "DSC_2217.jpg",
+      "DSC_2493-1.jpg",
+      "DSC_2493.jpg"
     ]
   },
   "pavlina-knirova.html": {
@@ -301,7 +311,12 @@ const candidateGalleryData = {
       "DSC_6947.jpg",
       "DSC_6968.jpg",
       "DSC_6978.jpg",
-      "DSC_6985.jpg"
+      "DSC_6985.jpg",
+      "4eb95cd5-0428-4a48-96d2-d5bc5abebed4.jpg",
+      "9161ea16-e232-4521-b110-e4503ca2f7ea.jpg",
+      "9a0e9e1a-3992-4c06-b14b-04786d9d806d.jpg",
+      "d2e1034f-6f77-4539-a3be-341d4f8474e8.jpg",
+      "e4a47424-caa4-4cbc-a9e9-bec1298dfc68.jpg"
     ]
   },
   "janku.html": {
