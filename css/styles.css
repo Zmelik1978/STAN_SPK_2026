@@ -428,17 +428,13 @@ h4 {
   margin-bottom: clamp(22px, 3vw, 36px);
   font-size: 1.1rem;
   color: var(--muted);
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: center;
   white-space: normal;
 }
 
 @media (max-width: 680px) {
   .program-intro {
     font-size: 1rem;
-    text-align: left;
-    text-justify: auto;
-    white-space: normal;
   }
 }
 
