@@ -211,6 +211,17 @@ const candidateGalleryData = {
       "PHOTO-2026-05-22-15-06-54.jpg"
     ]
   },
+  "martina-klusakova.html": {
+    "folder": "Martina Kusáková",
+    "photos": [
+      "foto1.jpg",
+      "foto2.jpg",
+      "foto3.png",
+      "foto4.jpg",
+      "foto5.png",
+      "foto6.png"
+    ]
+  },
   "miroslav-vaclavek.html": {
     "folder": "Miroslav Václavek",
     "photos": [
@@ -402,6 +413,13 @@ const candidateGalleryData = {
       "tom4.jpeg",
       "tom5.jpeg",
       "tom6.jpeg"
+    ]
+  },
+  "zdena-kasparova.html": {
+    "folder": "Zdena Kašparová",
+    "photos": [
+      "fotka 1.jpeg",
+      "fotka 2.jpeg"
     ]
   }
 };
