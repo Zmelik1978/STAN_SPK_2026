@@ -420,6 +420,7 @@ h4 {
 
 .section-heading {
   margin-bottom: clamp(26px, 4vw, 46px);
+  text-align: center;
 }
 
 /* ---------- Program accordion ---------- */
