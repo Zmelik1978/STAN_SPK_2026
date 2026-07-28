@@ -436,6 +436,8 @@ h4 {
 @media (max-width: 680px) {
   .program-intro {
     font-size: 1rem;
+    text-align: left;
+    text-justify: auto;
     white-space: normal;
   }
 }
