@@ -833,6 +833,11 @@ h4 {
     white-space: normal;
   }
 
+  .contact-heading-line {
+    display: block;
+    white-space: nowrap;
+  }
+
   .section-shell {
     width: min(100% - 28px, 1200px);
   }
