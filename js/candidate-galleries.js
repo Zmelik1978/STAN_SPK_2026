@@ -107,8 +107,13 @@ const candidateGalleryData = {
       "ivo1.jpeg",
       "Ivo3.jpeg",
       "Ivo4.jpeg",
+      "Ivo5 (1).jpeg",
       "Ivo5.jpeg",
-      "Ivo6.jpeg"
+      "Ivo6 (1).jpeg",
+      "Ivo6.jpeg",
+      "ivo7 (1).jpeg",
+      "ivo7.jpeg",
+      "Ivo8.jpeg"
     ]
   },
   "jan-gronych.html": {
@@ -125,11 +130,18 @@ const candidateGalleryData = {
   "ing-jiri-urban.html": {
     "folder": "Jiří Urban",
     "photos": [
+      "20250805_124230.jpeg",
+      "20250807_081836.jpeg",
+      "20251227_112600.jpeg",
+      "20260125_125721.jpeg",
+      "Bari_bar Urban.jpg",
       "DSC_6989.jpg",
       "DSC_6992.jpg",
       "DSC_6997.jpg",
       "DSC_6998.jpg",
-      "DSC_7112.jpg"
+      "DSC_7112.jpg",
+      "Pestovani revy.jpg",
+      "S mazelkou_Portugalsko.jpg"
     ]
   },
   "lenka-brozova.html": {
