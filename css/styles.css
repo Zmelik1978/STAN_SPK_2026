@@ -707,6 +707,44 @@ h4 {
   color: var(--cream);
 }
 
+.contact-email {
+  overflow-wrap: anywhere;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  color: var(--cream);
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  border-color: var(--yellow);
+  background: var(--yellow);
+  color: var(--magenta);
+}
+
+.social-links svg {
+  flex: 0 0 auto;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   display: flex;
@@ -855,6 +893,16 @@ h4 {
 
   .contact-panel {
     padding: 26px 20px;
+  }
+
+  .social-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .social-links a {
+    width: 100%;
   }
 
   .contact-panel .button {
