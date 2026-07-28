@@ -268,7 +268,8 @@ const candidateGalleryData = {
       "DSC_6930.jpg",
       "DSC_6957.jpg",
       "DSC_6958.jpg",
-      "DSC_6983.jpg"
+      "DSC_6983.jpg",
+      "1000015729.jpg"
     ]
   },
   "otto-zimmermann.html": {
