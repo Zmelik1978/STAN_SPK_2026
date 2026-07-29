@@ -438,12 +438,40 @@ const candidateGalleryData = {
 };
 
 const candidatePage = decodeURIComponent(window.location.pathname.split("/").pop());
-const candidateGallery = candidateGalleryData[candidatePage];
+const candidatePageAliases = {
+  "ivo-fischer.html": "fischer.html",
+  "hana-janickova.html": "hana-janickova.html",
+  "hana-polisenska.html": "hana-polisenska.html",
+  "helena-dokoupilova.html": "helena-dokoupilova.html",
+  "jiri-urban.html": "ing-jiri-urban.html",
+  "jan-gronych.html": "jan-gronych.html",
+  "roman-janku.html": "janku.html",
+  "lenka-brozova.html": "lenka-brozova.html",
+  "leona-pekarova.html": "leona-pekarova.html",
+  "daniel-macak.html": "macak.html",
+  "marie-gronychova.html": "marie-gronychova.html",
+  "martin-biza.html": "martin-biza.html",
+  "martina-klusakova.html": "martina-klusakova.html",
+  "miroslav-vaclavek.html": "miroslav-vaclavek.html",
+  "olga-kasticka-zimmermannova.html": "olga-doplnit-prijmeni.html",
+  "otto-zimmermann.html": "otto-zimmermann.html",
+  "pavel-broz.html": "pavel-broz.html",
+  "pavlina-knirova.html": "pavlina-knirova.html",
+  "radek-sinkovsky.html": "radek-sinkovsky.html",
+  "stanislav-jelinek.html": "stanislav-jelinek.html",
+  "tereza-kaminkova.html": "terka-doplnit-prijmeni.html",
+  "tomas-krill.html": "tomas-krill.html",
+  "zdena-kasparova.html": "zdena-kasparova.html"
+};
+const candidateGallery = candidateGalleryData[candidatePageAliases[candidatePage] || candidatePage];
+const galleryFolderBase = window.location.pathname.includes("/kandidati/")
+  ? "../personal web pages/"
+  : "";
 
 if (candidateGallery?.photos.length) {
   const candidateMain = document.querySelector("main");
   const candidateName = document.querySelector(".kandidat h1")?.textContent.trim() || "kandidáta";
-  const photoPath = (file) => `${candidateGallery.folder}/${file}`;
+  const photoPath = (file) => `${galleryFolderBase}${candidateGallery.folder}/${file}`;
   const thumbnails = candidateGallery.photos.map((file, index) => `
     <button class="gallery-item${index === 0 ? " is-active" : ""}" type="button" data-src="${photoPath(file)}" aria-label="Zobrazit fotografii ${index + 1}">
       <img src="${photoPath(file)}" alt="" loading="lazy">

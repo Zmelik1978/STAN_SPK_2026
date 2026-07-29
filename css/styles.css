@@ -327,7 +327,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.hero h2 {
+.hero h1 {
   margin-bottom: 20px;
   color: var(--yellow);
   font-size: clamp(3.2rem, 8.5vw, 7rem);
@@ -859,7 +859,7 @@ h4 {
     padding: 48px 0 56px;
   }
 
-  .hero h2 {
+  .hero h1 {
     font-size: clamp(2.55rem, 14vw, 3.7rem);
   }
 
