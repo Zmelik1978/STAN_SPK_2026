@@ -1,0 +1,31 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.stan-sumperk\.cz$ [NC]
+RewriteRule ^ https://stan-sumperk.cz%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+jak_to_vsechno_zacalo\.html(?:[?\s]) [NC]
+RewriteRule ^jak_to_vsechno_zacalo\.html$ /jak-to-vsechno-zacalo [R=301,L]
+RewriteRule ^jak-to-vsechno-zacalo/?$ jak_to_vsechno_zacalo.html [L]
+Redirect 301 "/personal web pages/fischer.html" "/kandidati/ivo-fischer.html"
+Redirect 301 "/personal web pages/hana-janickova.html" "/kandidati/hana-janickova.html"
+Redirect 301 "/personal web pages/hana-polisenska.html" "/kandidati/hana-polisenska.html"
+Redirect 301 "/personal web pages/helena-dokoupilova.html" "/kandidati/helena-dokoupilova.html"
+Redirect 301 "/personal web pages/ing-jiri-urban.html" "/kandidati/jiri-urban.html"
+Redirect 301 "/personal web pages/jan-gronych.html" "/kandidati/jan-gronych.html"
+Redirect 301 "/personal web pages/janku.html" "/kandidati/roman-janku.html"
+Redirect 301 "/personal web pages/lenka-brozova.html" "/kandidati/lenka-brozova.html"
+Redirect 301 "/personal web pages/leona-pekarova.html" "/kandidati/leona-pekarova.html"
+Redirect 301 "/personal web pages/macak.html" "/kandidati/daniel-macak.html"
+Redirect 301 "/personal web pages/marie-gronychova.html" "/kandidati/marie-gronychova.html"
+Redirect 301 "/personal web pages/martin-biza.html" "/kandidati/martin-biza.html"
+Redirect 301 "/personal web pages/martina-klusakova.html" "/kandidati/martina-klusakova.html"
+Redirect 301 "/personal web pages/miroslav-vaclavek.html" "/kandidati/miroslav-vaclavek.html"
+Redirect 301 "/personal web pages/olga-doplnit-prijmeni.html" "/kandidati/olga-kasticka-zimmermannova.html"
+Redirect 301 "/personal web pages/otto-zimmermann.html" "/kandidati/otto-zimmermann.html"
+Redirect 301 "/personal web pages/pavel-broz.html" "/kandidati/pavel-broz.html"
+Redirect 301 "/personal web pages/pavlina-knirova.html" "/kandidati/pavlina-knirova.html"
+Redirect 301 "/personal web pages/radek-sinkovsky.html" "/kandidati/radek-sinkovsky.html"
+Redirect 301 "/personal web pages/stanislav-jelinek.html" "/kandidati/stanislav-jelinek.html"
+Redirect 301 "/personal web pages/terka-doplnit-prijmeni.html" "/kandidati/tereza-kaminkova.html"
+Redirect 301 "/personal web pages/tomas-krill.html" "/kandidati/tomas-krill.html"
+Redirect 301 "/personal web pages/zdena-kasparova.html" "/kandidati/zdena-kasparova.html"
