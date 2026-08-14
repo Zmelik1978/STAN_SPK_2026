@@ -1,12 +1,12 @@
 // Fotogalerie kandidátů generované z jejich fotografických složek.
 const candidateGalleryData = {
   "macak.html": {
-    "folder": "Daniel Mačák",
+    "folder": "Daniel Macak",
     "photos": [
       "20230905_151049.jpg",
       "20231006_100037.jpg",
       "20241224_060717.jpg",
-      "ČČK_160.jpg",
+      "CCK_160.jpg",
       "DSC_6754.jpg",
       "DSC_6762.jpg",
       "DSC_6809.jpg",
@@ -21,7 +21,7 @@ const candidateGalleryData = {
     ]
   },
   "martin-biza.html": {
-    "folder": "Martin Bíza",
+    "folder": "Martin Biza",
     "photos": [
       "DSC_6683.jpg",
       "DSC_6707.jpg",
@@ -44,7 +44,7 @@ const candidateGalleryData = {
     ]
   },
   "hana-janickova.html": {
-    "folder": "Hana Jančíková",
+    "folder": "Hana Jancikova",
     "photos": [
       "DSC_6706.jpg",
       "DSC_6713.jpg",
@@ -64,12 +64,12 @@ const candidateGalleryData = {
       "DSC_6932.jpg",
       "DSC_6957.jpg",
       "DSC_6958.jpg",
-      "Hana Janíčková_DSC0125_1.jpg",
-      "Hana Janíčková_DSC5694_1.jpg"
+      "Hana Janickova_DSC0125_1.jpg",
+      "Hana Janickova_DSC5694_1.jpg"
     ]
   },
   "hana-polisenska.html": {
-    "folder": "Hana Polyšenská",
+    "folder": "Hana Polysenska",
     "photos": [
       "DSC_6684.jpg",
       "DSC_6849.jpg",
@@ -125,7 +125,7 @@ const candidateGalleryData = {
     ]
   },
   "ing-jiri-urban.html": {
-    "folder": "Jiří Urban",
+    "folder": "Jiri Urban",
     "photos": [
       "20250805_124230.jpeg",
       "20250807_081836.jpeg",
@@ -142,7 +142,7 @@ const candidateGalleryData = {
     ]
   },
   "lenka-brozova.html": {
-    "folder": "Lenka Brožová",
+    "folder": "Lenka Brozova",
     "photos": [
       "DSC_6706.jpg",
       "DSC_6725.jpg",
@@ -162,7 +162,7 @@ const candidateGalleryData = {
     ]
   },
   "leona-pekarova.html": {
-    "folder": "Leona Pekařová",
+    "folder": "Leona Pekarova",
     "photos": [
       "20250404_182511.jpg",
       "20250501_192304.jpg",
@@ -195,7 +195,7 @@ const candidateGalleryData = {
     ]
   },
   "marie-gronychova.html": {
-    "folder": "Marie Gronychová",
+    "folder": "Marie Gronychova",
     "photos": [
       "DSC_6706.jpg",
       "DSC_6724.jpg",
@@ -220,7 +220,7 @@ const candidateGalleryData = {
     ]
   },
   "martina-klusakova.html": {
-    "folder": "Martina Kusáková",
+    "folder": "Martina Kusakova",
     "photos": [
       "foto1.jpg",
       "foto2.jpg",
@@ -231,7 +231,7 @@ const candidateGalleryData = {
     ]
   },
   "miroslav-vaclavek.html": {
-    "folder": "Miroslav Václavek",
+    "folder": "Miroslav Vaclavek",
     "photos": [
       "DSC_6724.jpg",
       "DSC_6725.jpg",
@@ -250,7 +250,7 @@ const candidateGalleryData = {
     ]
   },
   "olga-doplnit-prijmeni.html": {
-    "folder": "Olga Kašická Zimmermannová",
+    "folder": "Olga Kasicka Zimmermannova",
     "photos": [
       "DSC_6721.jpg",
       "DSC_6724.jpg",
@@ -283,7 +283,7 @@ const candidateGalleryData = {
     ]
   },
   "pavel-broz.html": {
-    "folder": "Pavel Brož",
+    "folder": "Pavel Broz",
     "photos": [
       "DSC_6708.jpg",
       "DSC_6724.jpg",
@@ -304,7 +304,7 @@ const candidateGalleryData = {
     ]
   },
   "pavlina-knirova.html": {
-    "folder": "Pavlína Knířová",
+    "folder": "Pavlina Knirova",
     "photos": [
       "DSC_6845.jpg",
       "DSC_6849.jpg",
@@ -319,7 +319,7 @@ const candidateGalleryData = {
     ]
   },
   "radek-sinkovsky.html": {
-    "folder": "Radek Šinkovský",
+    "folder": "Radek Sinkovsky",
     "photos": [
       "DSC_6743.jpg",
       "DSC_6773.jpg",
@@ -340,7 +340,7 @@ const candidateGalleryData = {
     ]
   },
   "janku.html": {
-    "folder": "Roman Janků",
+    "folder": "Roman Janku",
     "photos": [
       "_DN_7500.jpg",
       "DSC_6706.jpg",
@@ -367,7 +367,7 @@ const candidateGalleryData = {
     ]
   },
   "stanislav-jelinek.html": {
-    "folder": "Stanislav Jelínek",
+    "folder": "Stanislav Jelinek",
     "photos": [
       "117567843_10157237845141426_5570734738955442431_n.jpg",
       "20260426_103738.jpg",
@@ -383,7 +383,7 @@ const candidateGalleryData = {
     ]
   },
   "terka-doplnit-prijmeni.html": {
-    "folder": "Tereza Kamínková",
+    "folder": "Tereza Kaminkova",
     "photos": [
       "DSC_6726.jpg",
       "DSC_6741.jpg",
@@ -404,7 +404,7 @@ const candidateGalleryData = {
     ]
   },
   "tomas-krill.html": {
-    "folder": "Tomáš Krill",
+    "folder": "Tomas Krill",
     "photos": [
       "DSC_6726.jpg",
       "DSC_6779.jpg",
@@ -425,14 +425,14 @@ const candidateGalleryData = {
     ]
   },
   "zdena-kasparova.html": {
-    "folder": "Zdena Kašparová",
+    "folder": "Zdena Kasparova",
     "photos": [
       "fotka 1.jpeg",
       "fotka 2.jpeg"
     ]
   },
   "zdenka-dankova.html": {
-    "folder": "Zdeňka Daňková",
+    "folder": "Zdenka Dankova",
     "photos": [
       "0329.jpg",
       "0847.jpg",
