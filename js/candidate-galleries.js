@@ -92,8 +92,6 @@ const candidateGalleryData = {
       "4.webp",
       "5.webp",
       "6.webp",
-      "IMG_2124.jpg",
-      "IMG_9794.jpeg"
     ]
   },
   "fischer.html": {
