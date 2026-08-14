@@ -161,6 +161,16 @@ const candidateGalleryData = {
       "DSC_2560-1.jpg",
     ]
   },
+  "lenka-zikova.html": {
+    "folder": "Lenka Zikova",
+    "photos": [
+      "IMG_20260326_105755.jpg",
+      "IMG_20260508_114657.jpg",
+      "IMG_20260607_132628_HDR.jpg",
+      "IMG_20260609_094454_HDR.jpg",
+      "IMG_20260609_095023_HDR.jpg"
+    ]
+  },
   "leona-pekarova.html": {
     "folder": "Leona Pekarova",
     "photos": [
