@@ -83,6 +83,19 @@ const candidateGalleryData = {
       "DSC_6968.jpg"
     ]
   },
+  "ivana-pospisilova.html": {
+    "folder": "Ivana Pospisilova",
+    "photos": [
+      "1.webp",
+      "2.webp",
+      "3.webp",
+      "4.webp",
+      "5.webp",
+      "6.webp",
+      "IMG_2124.jpg",
+      "IMG_9794.jpeg"
+    ]
+  },
   "fischer.html": {
     "folder": "Ivo Fischer",
     "photos": [
