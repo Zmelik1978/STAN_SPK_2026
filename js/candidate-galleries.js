@@ -434,6 +434,18 @@ const candidateGalleryData = {
       "fotka 1.jpeg",
       "fotka 2.jpeg"
     ]
+  },
+  "zdenka-dankova.html": {
+    "folder": "Zdeňka Daňková",
+    "photos": [
+      "0329.jpg",
+      "0847.jpg",
+      "5709.jpg",
+      "5718.jpg",
+      "6019078.jpg",
+      "6289272.jpg",
+      "9235.jpg"
+    ]
   }
 };
 
@@ -461,7 +473,8 @@ const candidatePageAliases = {
   "stanislav-jelinek.html": "stanislav-jelinek.html",
   "tereza-kaminkova.html": "terka-doplnit-prijmeni.html",
   "tomas-krill.html": "tomas-krill.html",
-  "zdena-kasparova.html": "zdena-kasparova.html"
+  "zdena-kasparova.html": "zdena-kasparova.html",
+  "zdenka-dankova.html": "zdenka-dankova.html"
 };
 const candidateGallery = candidateGalleryData[candidatePageAliases[candidatePage] || candidatePage];
 const galleryFolderBase = window.location.pathname.includes("/kandidati/")
