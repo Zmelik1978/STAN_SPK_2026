@@ -107,11 +107,8 @@ const candidateGalleryData = {
       "ivo1.jpeg",
       "Ivo3.jpeg",
       "Ivo4.jpeg",
-      "Ivo5 (1).jpeg",
       "Ivo5.jpeg",
-      "Ivo6 (1).jpeg",
       "Ivo6.jpeg",
-      "ivo7 (1).jpeg",
       "ivo7.jpeg",
       "Ivo8.jpeg"
     ]
@@ -194,8 +191,7 @@ const candidateGalleryData = {
       "FB_IMG_1784380879549.jpg",
       "IMG-20240625-WA0014.jpg",
       "IMG-20250501-WA0057 (1).jpg",
-      "received_651861804316913_4.jpeg",
-      "received_651861804316913_5.jpeg"
+      "received_651861804316913_4.jpeg"
     ]
   },
   "marie-gronychova.html": {
